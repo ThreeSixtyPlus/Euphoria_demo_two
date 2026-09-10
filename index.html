@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Indian, Punjabi &amp; Asian Wedding DJs | Euphoria Sounds</title>
-<meta name="description" content="Indian, Punjabi and Asian wedding DJs. One wedding a day, all kit owned in-house: sound, lighting, effects and full production, UK and worldwide.">
+<meta name="description" content="Indian, Punjabi and Asian wedding DJs. Full in-house production — sound, lighting, effects and staging — delivered to the Euphoria Standard, UK and worldwide.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -136,16 +136,18 @@ a{color:inherit}
 .night-cue{margin-top:18px;font-size:13px;color:rgba(244,240,232,.6);letter-spacing:.06em}
 
 /* packages */
-.tiers{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--rule)}
-.tier{padding:44px 36px 46px;border-right:1px solid var(--rule);display:flex;flex-direction:column}
-.tier:last-child{border-right:none}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.tier{padding:40px 32px 40px;display:flex;flex-direction:column;background:var(--bone)}
+.band-dark .tier{background:#2E241D}
 .tier-feature{background:var(--bone-2)}
-.tier h3{font-family:var(--display);font-weight:300;font-size:1.8rem;margin:0 0 6px}
-.tier .scope{color:var(--oxblood);font-size:13.5px;letter-spacing:.07em;margin:0 0 26px}
-.tier ul{list-style:none;margin:0 0 32px;padding:0;font-size:15px;color:var(--mute)}
-.tier li{padding:11px 0;border-bottom:1px solid var(--rule)}
+.tier .tagline{color:var(--mute);font-size:14px;line-height:1.6;margin:0 0 22px;min-height:44px}
+.tier h3{font-family:var(--display);font-weight:300;font-size:1.6rem;margin:0 0 8px}
+.tier .scope{color:var(--oxblood);font-size:13px;letter-spacing:.07em;margin:0 0 18px;text-transform:uppercase}
+.tier ul{list-style:none;margin:0 0 28px;padding:0;font-size:14.5px;color:var(--mute)}
+.tier li{padding:9px 0;border-bottom:1px solid var(--rule)}
 .tier li:last-child{border-bottom:none}
-.tier .btn{margin-top:auto;align-self:flex-start}
+.tier .btn{margin-top:auto;align-self:flex-start;font-size:13px;padding:13px 26px}
+.tiers-note{margin-top:28px;font-size:14px;color:var(--mute);text-align:center}
 
 /* production */
 .prod{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(244,240,232,.18)}
@@ -239,7 +241,6 @@ a{color:inherit}
   .moment.is-open{height:340px;flex-grow:0}
   .moment h3{white-space:normal}
   .tiers,.prod,.films,.prod-media,.says{grid-template-columns:1fr}
-  .tier{border-right:none;border-bottom:1px solid var(--rule)}
   .film .ph,.film:first-child .ph{aspect-ratio:16/10}
   .foot-grid{grid-template-columns:1fr}
   .nav-links{display:none}
@@ -288,7 +289,7 @@ a{color:inherit}
     <div class="wrap">
       <p class="kicker rise d1">INDIAN · PUNJABI · ASIAN WEDDINGS</p>
       <h1 class="rise d1">The floor is the whole point.</h1>
-      <p class="rise d2">One wedding a day, every time. The person who plans your night is the one standing behind the decks on it — baraat to last song, sound, lights and production all ours.</p>
+      <p class="rise d2">Held to the Euphoria Standard on every booking. An 18-strong in-house team — sound, lighting, effects and production — baraat to last song.</p>
       <div class="hero-actions rise d3">
         <a class="btn btn-solid" href="#enquire">Check your date</a>
         <a class="btn btn-ghost" href="#packages">See DJ packages</a>
@@ -300,17 +301,17 @@ a{color:inherit}
   <section class="proof" aria-label="Reputation and venues">
     <div class="wrap">
       <div class="rating">
-        <b class="tbc" title="Pull live figure from Google Business Profile">4.9 / 5</b>
-        <span>from <span class="tbc" title="Confirm review count with Dal">180+</span> Google reviews</span>
+        <b>5.0 / 5</b>
+        <span>from 104 Google reviews</span>
       </div>
       <div class="venues" aria-hidden="true">
         <div class="venue-track">
-          <span class="tbc" title="Replace with real venues from Dal">Nailcote Hall</span><span class="tbc">Grand Station</span>
-          <span class="tbc">Heart of England</span><span class="tbc">The Belfry</span>
-          <span class="tbc">Ragley Hall</span><span class="tbc">Villa Cortine, Garda</span>
-          <span class="tbc">Nailcote Hall</span><span class="tbc">Grand Station</span>
-          <span class="tbc">Heart of England</span><span class="tbc">The Belfry</span>
-          <span class="tbc">Ragley Hall</span><span class="tbc">Villa Cortine, Garda</span>
+          <span>The Belfry</span><span>Meridian Grand</span>
+          <span>IXL Events Centre</span><span>National Motorcycle Museum</span>
+          <span>Oscars</span><span>Manor Grove</span>
+          <span>The Belfry</span><span>Meridian Grand</span>
+          <span>IXL Events Centre</span><span>National Motorcycle Museum</span>
+          <span>Oscars</span><span>Manor Grove</span>
         </div>
       </div>
     </div>
@@ -319,14 +320,14 @@ a{color:inherit}
   <section class="band" id="promise">
     <div class="wrap spine">
       <div>
-        <h2>We take one wedding a day.</h2>
-        <p>Bigger companies run several weddings at once and send whoever is free. That works, until something needs deciding at nine o'clock and nobody in the room has the authority to decide it.</p>
-        <p>We do one. The kit is ours, the crew is family, and the person who quoted your wedding six months ago is the one loading in on the morning.</p>
+        <h2>The Euphoria Standard.</h2>
+        <p>Every Euphoria DJ is held to the same standard — the same preparation, the same production quality, the same attention to detail. Personality differs from one DJ to the next. The standard doesn't.</p>
+        <p>Sound, lighting, effects and staging are ours, run by an in-house team of eighteen — DJs, technicians, dhol players and crew.</p>
         <ul class="pledges">
-          <li><b>You meet your DJ</b><span>Before you book, not after. Same person on the day.</span></li>
-          <li><b>Nothing subcontracted</b><span>Sound, lighting, effects and staging are all ours.</span></li>
-          <li><b>Reply the same day</b><span>Every enquiry, including weekends in season.</span></li>
-          <li><b>Two planning meetings</b><span>Plus a walkthrough at your venue before the day.</span></li>
+          <li><b>You meet your DJ</b><span>As part of your consultation, before you book.</span></li>
+          <li><b>Full production, in-house</b><span>Sound, lighting and effects are ours, not subcontracted.</span></li>
+          <li><b>Two crews, one day</b><span>Ceremony and reception covered at once when you need it.</span></li>
+          <li><b>2–6 planning meetings</b><span>Scaled to the size of your day, plus a venue walkthrough.</span></li>
         </ul>
       </div>
       <div class="ph"><span class="ph-tag"><b>Team or DJ portrait</b>1000 × 1250 · real crew, on site, not studio</span></div>
@@ -373,29 +374,44 @@ a{color:inherit}
   <section class="band" id="packages">
     <div class="wrap">
       <div class="head">
-        <h2>Wedding DJ packages</h2>
-        <p>Three starting points, each adjusted once we know your venue, guest count and how many rooms you're running — so quotes are built for your day rather than picked off a list.</p>
+        <h2>Production packages</h2>
+        <p>Six starting points, built around scale and atmosphere rather than room or duration. Every one is shaped further once we know your venue and vision — ask us for a from-price and a full proposal.</p>
       </div>
       <div class="tiers">
         <article class="tier">
-          <h3>Reception</h3><p class="scope">Single room · evening</p>
-          <ul><li>DJ and MC for the evening</li><li>Full sound system sized to your room</li>
-            <li>Dance floor lighting</li><li>Wireless mic for speeches</li><li>Planning call before the day</li></ul>
-          <a class="btn btn-line" href="#enquire">Ask about Reception</a>
-        </article>
-        <article class="tier tier-feature">
-          <h3>Full day</h3><p class="scope">Most booked · two crews</p>
-          <ul><li>Everything in Reception</li><li>Baraat rig and dhol player</li><li>Uplighting throughout the room</li>
-            <li>Cold sparks and low haze</li><li>Custom monogram projection</li><li>Second crew for the ceremony room</li></ul>
-          <a class="btn btn-dark" href="#enquire">Ask about Full day</a>
+          <h3>Essence</h3><p class="tagline">Elegant and powerful, perfect for intimate celebrations.</p>
+          <ul><li>Euphoria Professional Host &amp; DJ</li><li>Signature DJ booth &amp; velvet backdrop</li>
+            <li>Moving-head lighting</li><li>Lighting technician on site</li></ul>
+          <a class="btn btn-line" href="#enquire">Ask about Essence</a>
         </article>
         <article class="tier">
-          <h3>Production</h3><p class="scope">Multi-day and destination</p>
-          <ul><li>Everything in Full day</li><li>Stage, truss and LED wall design</li><li>Mandap and venue theming</li>
-            <li>Wedding car hire</li><li>Destination coordination and freight</li><li>Site visit and full technical plan</li></ul>
-          <a class="btn btn-line" href="#enquire">Ask about Production</a>
+          <h3>Aura</h3><p class="tagline">Enhanced lighting design and atmosphere, without a screen.</p>
+          <ul><li>Everything in Essence</li><li>Extended lighting rig with staging</li>
+            <li>Haze for depth and atmosphere</li><li>Wireless mic system</li></ul>
+          <a class="btn btn-line" href="#enquire">Ask about Aura</a>
+        </article>
+        <article class="tier">
+          <h3>Radiance</h3><p class="tagline">Atmosphere and impact, just short of full cinematic scale.</p>
+          <ul><li>Everything in Aura</li><li>HD LED screen &amp; staging</li><li>Lighting &amp; visual technician</li></ul>
+          <a class="btn btn-line" href="#enquire">Ask about Radiance</a>
+        </article>
+        <article class="tier tier-feature">
+          <h3>Luminaire</h3><p class="tagline">Cinematic LED centrepiece — sound and visuals in harmony.</p>
+          <ul><li>Everything in Radiance</li><li>Larger-format HD LED screen</li><li>Full lighting &amp; visual production</li></ul>
+          <a class="btn btn-dark" href="#enquire">Ask about Luminaire</a>
+        </article>
+        <article class="tier">
+          <h3>Panorama</h3><p class="tagline">Immersive widescreen LED and lighting, built for a big room.</p>
+          <ul><li>Everything in Luminaire</li><li>Widescreen HD LED wall</li><li>Extended lighting production</li></ul>
+          <a class="btn btn-line" href="#enquire">Ask about Panorama</a>
+        </article>
+        <article class="tier">
+          <h3>Visionary</h3><p class="tagline">Bespoke production, designed from the ground up.</p>
+          <ul><li>A production entirely your own</li><li>Scale and screen size without limits</li><li>Designed together with our team</li></ul>
+          <a class="btn btn-line" href="#enquire">Talk to us about Visionary</a>
         </article>
       </div>
+      <p class="tiers-note">Luminaire and Visionary are our most requested productions — though the right fit depends on your venue and vision, not the size of the package.</p>
     </div>
   </section>
 
@@ -403,19 +419,19 @@ a{color:inherit}
     <div class="wrap">
       <div class="head">
         <h2>What we bring with us</h2>
-        <p>Owned in-house, not hired in — so if something needs changing at 9pm, the person who can change it is already in the room.</p>
+        <p>Owned and run in-house by our eighteen-strong team — so if something needs changing at 9pm, the person who can change it is already in the room.</p>
       </div>
       <div class="prod-media">
         <div class="ph"><span class="ph-tag"><b>Lighting detail</b>1200 × 900 · uplighting and draping</span></div>
         <div class="ph"><span class="ph-tag"><b>Baraat or dhol</b>1200 × 900 · daylight, outdoors</span></div>
       </div>
       <div class="prod">
-        <article><h3>Lighting</h3><p>Uplighting matched to your colour scheme, moving heads, and pin-spots on the cake and top table.</p></article>
-        <article><h3>Special effects</h3><p>Cold sparks, CO2 jets, low smoke for the first dance, and confetti drops timed to the track.</p></article>
-        <article><h3>Theming</h3><p>Mandap and stage design, draping, florals and monogram projection, built around your venue's shape.</p></article>
-        <article><h3>Wedding cars</h3><p>Chauffeur-driven arrivals coordinated with the baraat so the timing holds even when the day runs late.</p></article>
-        <article><h3>Destination weddings</h3><p>Freight, local crew and power handled by us, with the team on site two days early.</p></article>
-        <article><h3>Live musicians</h3><p>Dhol, tabla, sax and percussion playing over the mix, rehearsed with your DJ rather than dropped in.</p></article>
+        <article><h3>Lighting</h3><p>Moving heads, uplighting matched to your colours, and pin-spots on the cake and top table — designed and run in-house.</p></article>
+        <article><h3>Special effects</h3><p>Cold sparks, haze and confetti drops timed to the track, built into the lighting design.</p></article>
+        <article><h3>Dancefloors</h3><p>LED, printed, mirrored or gloss finishes — a stage as considered as the sound above it.</p></article>
+        <article><h3>Theming</h3><p>Draping, florals and stage design, built around your venue's shape. Mandap design delivered with trusted specialist partners.</p></article>
+        <article><h3>Destination weddings</h3><p>Freight, local crew and power handled by us, with the team on site two days early. Italy, Spain, Greece, India, Dubai and Mexico.</p></article>
+        <article><h3>Live performers</h3><p>Bhangra dancers, saxophonists and pianists over the mix — our own artists, or close partners we work with regularly.</p></article>
       </div>
     </div>
   </section>
@@ -429,15 +445,15 @@ a{color:inherit}
       <div class="films">
         <a class="film" href="#work">
           <div class="ph"><span class="ph-tag"><b>Portrait 1</b>1000 × 1250</span></div>
-          <div class="film-cap tbc" title="Replace with a real wedding">Nailcote Hall<em>Warwickshire · Simran &amp; Arjun</em></div>
+          <div class="film-cap tbc" title="Pair with a real wedding at this venue">The Belfry<em>Warwickshire</em></div>
         </a>
         <a class="film" href="#work">
           <div class="ph"><span class="ph-tag"><b>Portrait 2</b>900 × 1200</span></div>
-          <div class="film-cap tbc">Grand Station<em>Wolverhampton · Priya &amp; Dev</em></div>
+          <div class="film-cap tbc" title="Pair with a real wedding at this venue">Meridian Grand<em>London</em></div>
         </a>
         <a class="film" href="#work">
           <div class="ph"><span class="ph-tag"><b>Portrait 3</b>900 × 1200</span></div>
-          <div class="film-cap tbc">Villa Cortine<em>Lake Garda · Aisha &amp; Bilal</em></div>
+          <div class="film-cap tbc" title="Pair with a real wedding at this venue">National Motorcycle Museum<em>Birmingham</em></div>
         </a>
       </div>
     </div>
@@ -447,15 +463,15 @@ a{color:inherit}
     <div class="wrap">
       <div class="head">
         <h2>What couples say</h2>
-        <p><span class="tbc" title="Replace all three with real reviews from Dal">Placeholder text until real reviews are supplied.</span></p>
+        <p>From our Google reviews — 5.0 out of 5 across 104 reviews.</p>
       </div>
       <div class="says">
-        <article class="say"><blockquote>They read our family better than we did. Nobody sat down after nine.</blockquote>
-          <cite class="tbc">Manveer &amp; Raj<em>Wedding, June 2026</em></cite></article>
-        <article class="say"><blockquote>We met the same two people at every stage. On the morning, nothing needed explaining twice.</blockquote>
-          <cite class="tbc">Harleen &amp; Sunny<em>Wedding, Warwickshire</em></cite></article>
-        <article class="say"><blockquote>The baraat set up in a car park in the rain and still sounded enormous.</blockquote>
-          <cite class="tbc">Nisha &amp; Amrit<em>Wedding, Birmingham</em></cite></article>
+        <article class="say"><blockquote>What sets them apart is that they're not just a DJ company, they're a full AV production house. So many people stopped calling it a reception and started calling it a concert.</blockquote>
+          <cite class="tbc" title="Confirm couple name with Dal">Verified Google review</cite></article>
+        <article class="say"><blockquote>We've never found successful DJs until now. They read the room and got everyone off their seats and onto the dance floor.</blockquote>
+          <cite class="tbc" title="Confirm couple name with Dal">Verified Google review</cite></article>
+        <article class="say"><blockquote>If you want to feel like you're the only couple in the world and know your day will be special — Dal and Euphoria are the ones you want.</blockquote>
+          <cite class="tbc" title="Confirm couple name with Dal">Verified Google review</cite></article>
       </div>
     </div>
   </section>
@@ -465,29 +481,29 @@ a{color:inherit}
       <div class="head"><h2>Good to know</h2><p>The questions we get asked most, answered plainly.</p></div>
       <div class="faq">
         <details open><summary>How far ahead should we book an Asian wedding DJ?</summary>
-          <p>Peak Saturdays in summer go twelve to eighteen months ahead. Because we only take one wedding a day, a date is either free or it isn't — there's no second team to fall back on.</p></details>
+          <p>Peak Saturdays in summer go twelve to eighteen months ahead. We can run more than one wedding on the same date, but popular dates still fill up early.</p></details>
         <details><summary>Do you cover the ceremony and the reception if they're in different places?</summary>
-          <p>Yes. Full day and Production include a second crew, so one team sets up the reception room while the other runs the ceremony. Both crews are ours, briefed in the same planning meetings.</p></details>
+          <p>Yes. We can run two crews on the same day, so one team covers the ceremony while another sets up the reception. Both are Euphoria crews, briefed in the same planning meetings.</p></details>
         <details><summary>Can we choose the music, or does the DJ decide?</summary>
           <p>Both. You give us the must-plays, the do-not-plays and the family songs that matter, and we build the structure around them. The rest is read live — a floor doesn't follow a spreadsheet.</p></details>
         <details><summary>Do you travel for destination weddings?</summary>
-          <p>Regularly. We either fly out with control kit to play on a trusted local rig, or ship the full production. Freight, local crew and power are ours, and we arrive two days before.</p></details>
-        <details><summary>How much does a wedding DJ package cost?</summary>
-          <p>Every wedding is quoted individually after a short call, because guest numbers, venue restrictions, the number of rooms and travel change the answer significantly.</p></details>
-        <details><summary>What happens if the DJ is ill on the day?</summary>
-          <p>We carry a contracted standby DJ who sits in on your planning meetings and holds a copy of your full brief, plus a duplicate set of core kit.</p></details>
+          <p>Regularly — Italy, Spain, Greece, India, Dubai and Mexico so far. We either fly out with control kit to play on a trusted local rig, or ship the full production, and arrive two days before.</p></details>
+        <details><summary>How much does a production package cost?</summary>
+          <p>Every wedding is quoted individually after a short consultation, because your venue, guest numbers and the scale of production you want all shape the answer.</p></details>
+        <details><summary>What happens if a DJ is unavailable on the day?</summary>
+          <p>With a team of eighteen — including three resident DJs — nobody's booking depends on a single person's availability. Your planning is documented and shared across the team from the first consultation.</p></details>
       </div>
     </div>
   </section>
 
   <section class="band band-tint">
     <div class="wrap">
-      <div class="head"><h2>Where we play</h2><p>On the road most weekends, and abroad through the winter season.</p></div>
+      <div class="head"><h2>Where we play</h2><p>Based in the West Midlands, working nationally across the UK, and abroad for destination weddings.</p></div>
       <nav class="cover" aria-label="Locations">
-        <a href="#" class="tbc" title="Link to location landing pages once built">Birmingham</a><a href="#" class="tbc">Coventry</a>
-        <a href="#" class="tbc">West Midlands</a><a href="#" class="tbc">Leicester</a><a href="#" class="tbc">London</a>
-        <a href="#" class="tbc">Manchester</a><a href="#" class="tbc">Italy</a><a href="#" class="tbc">Spain</a>
-        <a href="#" class="tbc">Dubai</a><a href="#" class="tbc">India</a>
+        <a href="#" class="tbc" title="Link to a real location page once built">Birmingham</a><a href="#" class="tbc">West Midlands</a>
+        <a href="#" class="tbc">Coventry</a><a href="#" class="tbc">Wolverhampton</a><a href="#" class="tbc">Leicester</a>
+        <a href="#" class="tbc">London</a><a href="#" class="tbc">Italy</a><a href="#" class="tbc">Spain</a>
+        <a href="#" class="tbc">Greece</a><a href="#" class="tbc">India</a><a href="#" class="tbc">Dubai</a><a href="#" class="tbc">Mexico</a>
       </nav>
     </div>
   </section>
@@ -496,7 +512,7 @@ a{color:inherit}
     <div class="wrap enq">
       <div>
         <h2>Tell us the date and the venue.</h2>
-        <p>We only take one wedding per day, so dates go early. Send the basics and we'll come back the same day with availability and a proper quote — no call centre, no chasing.</p>
+        <p>Popular dates go early. Send the basics and our team will come back with availability and a proper proposal — no call centre, no chasing.</p>
         <ul class="contact">
           <li><span>WhatsApp</span><a href="https://wa.me/917710415791">+91 7710 415791</a></li>
           <li><span>Email</span><a href="mailto:info@euphoria-sounds.com">info@euphoria-sounds.com</a></li>
@@ -549,10 +565,10 @@ a{color:inherit}
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"How far ahead should we book an Asian wedding DJ?","acceptedAnswer":{"@type":"Answer","text":"Peak Saturdays in summer are booked twelve to eighteen months ahead. Euphoria Sounds takes one wedding per day, so a date is either free or it is not."}},
-{"@type":"Question","name":"Do you cover the ceremony and the reception if they are in different places?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Full day and Production packages include a second crew, so one team sets up the reception room while the other runs the ceremony."}},
-{"@type":"Question","name":"Do you travel for destination weddings?","acceptedAnswer":{"@type":"Answer","text":"Yes. Euphoria Sounds either flies out with control kit to play on a local rig, or ships the full production, handling freight, local crew and power."}},
-{"@type":"Question","name":"How much does a wedding DJ package cost?","acceptedAnswer":{"@type":"Answer","text":"Each wedding is quoted individually after a short call, because guest numbers, venue, number of rooms and travel all affect the price."}}]}
+{"@type":"Question","name":"How far ahead should we book an Asian wedding DJ?","acceptedAnswer":{"@type":"Answer","text":"Peak Saturdays in summer are booked twelve to eighteen months ahead. Euphoria Sounds can run more than one wedding on the same date, but popular dates still fill up early."}},
+{"@type":"Question","name":"Do you cover the ceremony and the reception if they are in different places?","acceptedAnswer":{"@type":"Answer","text":"Yes. Euphoria Sounds can run two crews on the same day, so one team covers the ceremony while another sets up the reception."}},
+{"@type":"Question","name":"Do you travel for destination weddings?","acceptedAnswer":{"@type":"Answer","text":"Yes, across Italy, Spain, Greece, India, Dubai and Mexico. Euphoria Sounds either flies out with control kit to play on a local rig, or ships the full production, handling freight, local crew and power."}},
+{"@type":"Question","name":"How much does a production package cost?","acceptedAnswer":{"@type":"Answer","text":"Each wedding is quoted individually after a short consultation, because venue, guest numbers and the scale of production all affect the price."}}]}
 </script>
 
 <script>
