@@ -48,9 +48,11 @@ a{color:inherit}
 .nav a{color:#F4F0E8}
 .nav.is-stuck{background:var(--bone);padding:13px 0;box-shadow:0 1px 0 var(--rule)}
 .nav.is-stuck a{color:var(--espresso)}
-.mark{font-family:var(--display);font-size:19px;letter-spacing:.3em;text-decoration:none;line-height:1}
-.mark small{display:block;font-family:var(--body);font-size:9.5px;letter-spacing:.48em;margin-top:6px;
-  font-weight:400;opacity:.7}
+.mark{font-family:var(--display);font-size:19px;letter-spacing:.3em;text-decoration:none;line-height:1;
+  display:inline-flex;align-items:center}
+.mark-logo{display:inline-flex;align-items:center}
+.mark-logo img{display:block;height:34px;width:auto}
+.foot .mark-logo img{height:38px}
 .nav-links{display:flex;gap:30px;list-style:none;margin:0;padding:0;font-size:14px}
 .nav-links a{text-decoration:none;opacity:.8;transition:opacity .25s}
 .nav-links a:hover{opacity:1}
@@ -315,7 +317,7 @@ a{color:inherit}
 
 <header class="nav" id="nav">
   <div class="wrap">
-    <a class="mark" href="#top">EUPHORIA<small>SOUNDS</small></a>
+    <a class="mark" href="#top"><span class="mark-logo"><img src="https://static.wixstatic.com/media/ccfa30_d0ab8e8fe334426aabd1430cbfe13b80~mv2.png" alt="Euphoria Sounds" width="2750" height="607"></span></a>
     <nav aria-label="Main">
       <ul class="nav-links">
         <li><a href="#promise">Why us</a></li>
@@ -634,7 +636,7 @@ a{color:inherit}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a class="mark" href="#top">EUPHORIA<small>SOUNDS</small></a>
+        <a class="mark" href="#top"><span class="mark-logo"><img src="https://static.wixstatic.com/media/ccfa30_d0ab8e8fe334426aabd1430cbfe13b80~mv2.png" alt="Euphoria Sounds" width="2750" height="607"></span></a>
         <p style="margin:22px 0 0;max-width:38ch">DJs, sound, lighting and production for Indian, Punjabi and Asian weddings. One wedding a day, in the UK and wherever you are marrying.</p>
       </div>
       <div><h4>Explore</h4><ul>
