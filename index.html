@@ -43,11 +43,11 @@ a{color:inherit}
 
 /* nav */
 .nav{position:fixed;inset:0 0 auto 0;z-index:60;padding:22px 0;transition:background .4s,padding .4s,box-shadow .4s;
-  mix-blend-mode:normal}
+  background:transparent}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
 .nav a{color:#F4F0E8}
-.nav.is-stuck{background:var(--bone);padding:13px 0;box-shadow:0 1px 0 var(--rule)}
-.nav.is-stuck a{color:var(--espresso)}
+.nav.is-stuck{background:rgba(36,28,23,.94);backdrop-filter:blur(14px);padding:13px 0;
+  box-shadow:0 8px 24px rgba(20,15,12,.18)}
 .mark{font-family:var(--display);font-size:19px;letter-spacing:.3em;text-decoration:none;line-height:1;
   display:inline-flex;align-items:center}
 .mark-logo{display:inline-flex;align-items:center}
@@ -58,7 +58,7 @@ a{color:inherit}
 .nav-links a:hover{opacity:1}
 .nav-cta{font-size:13px;letter-spacing:.12em;text-decoration:none;padding:11px 22px;
   border:1px solid currentColor;transition:background .3s,color .3s;white-space:nowrap}
-.nav.is-stuck .nav-cta:hover{background:var(--espresso);color:var(--bone)}
+.nav-cta:hover{background:var(--bone);color:var(--espresso)}
 
 /* video hero */
 .hero{position:relative;height:100svh;min-height:600px;overflow:hidden;display:flex;align-items:flex-end;
